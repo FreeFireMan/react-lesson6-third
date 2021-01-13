@@ -1,14 +1,15 @@
 import React, {Component} from 'react';
-import AllPeople from "./AllPeople/AllPeople";
+import Input from "./Input/Input";
 
-class App extends Component {
+class AllPeople extends Component {
+
     render() {
         return (
             <div>
-              <AllPeople/>
+                <Input/>
             </div>
         );
     }
 }
 
-export default App;
+export default AllPeople;
